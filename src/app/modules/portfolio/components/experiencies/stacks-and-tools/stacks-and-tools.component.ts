@@ -1,11 +1,12 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { StacksService } from '../../../services/stacks.service';
 import { Stack } from '../../../interfaces/stacks.interface';
+import { MatTooltip } from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-stacks-and-tools',
   standalone: true,
-  imports: [],
+  imports: [MatTooltip],
   templateUrl: './stacks-and-tools.component.html',
   styleUrl: './stacks-and-tools.component.scss'
 })

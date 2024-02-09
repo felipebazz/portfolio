@@ -2,11 +2,10 @@
   <h4>Stacks e Ferramentas</h4>
   <ul>
     @for (item of stacksAndTools; track $index) {
-      <li>
+      <li [matTooltip]="item.title">
         <img
           [src]="item.icon"
           [alt]="item.title"
-          [title]="item.title"
           loading="lazy"
           width="32px"
           height="34px">
