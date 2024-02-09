@@ -54,4 +54,12 @@
       }
     }
   }
+
+  @media (max-width: 360px) {
+    ul {
+      li {
+        flex: 10%;
+      }
+    }
+  }
 }
