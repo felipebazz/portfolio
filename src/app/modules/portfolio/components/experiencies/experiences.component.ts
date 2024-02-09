@@ -17,7 +17,7 @@ export class ExperienciesComponent {
         role: 'Desenvolvedor Full-Stack',
         date: 'Wipro | fev de 2021 - jan de 2024',
       },
-      text: `<p>Iniciei este desafio na consultoria, alocado no cliente Roche, onde tive a oportunidade de trabalhar exclusivamente no front-end com Angular, onde me desenvolvi bastante e em uma equipe de 5 desenvolvedores, desenvolvemos e entregamos
+      text: `<p>Iniciei este desafio na consultoria, alocado no cliente Roche, onde tive a oportunidade de trabalhar exclusivamente no front-end com Angular, onde evolui bastante e em uma equipe de 5 colaboradores, desenvolvemos e entregamos
       um sistema de controle faturas, onde era possível acompanhar todo o fluxo de uma fatura, possibilitando maior controle e também auditoria.
       </p>
       <p>

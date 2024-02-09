@@ -35,7 +35,7 @@ export class ProjectsComponent {
     {
       src: 'assets/icons/steam.svg',
       alt: '',
-      title: 'Guias de Conquistas de Jogos',
+      title: 'Guias de Conquistas',
       width: '100px',
       height: '51px',
       description: `
