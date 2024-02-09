@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { IKnowledge } from '../../interfaces/knowledge.interface';
+import { MatTooltip } from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-knowledge',
   standalone: true,
-  imports: [],
+  imports: [MatTooltip],
   templateUrl: './knowledge.component.html',
   styleUrl: './knowledge.component.scss'
 })

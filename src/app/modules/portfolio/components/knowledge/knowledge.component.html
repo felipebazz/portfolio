@@ -2,11 +2,10 @@
   <h2>Conhecimentos</h2>
   <ul>
     @for (item of arrayKnowledge(); track $index) {
-      <li>
+      <li [matTooltip]="item.title">
         <img
           [src]="item.icon"
           [alt]="item.alt"
-          [title]="item.title"
           loading="lazy"
           width="22px"
           height="24px">
