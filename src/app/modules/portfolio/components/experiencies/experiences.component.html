@@ -3,10 +3,21 @@
   @for (item of arrayExperiences(); track $index) {
     <details>
       <summary>
-        <p>
-          <strong>{{item.summary.role}}</strong>
-          {{item.summary.date}}
-        </p>
+        <div>
+          <div>
+            <img
+            src="assets/icons/work.svg"
+            height="22"
+            width="22"
+            >
+          </div>
+          <div>
+            <p>
+              <strong>{{item.summary.role}}</strong>
+              {{item.summary.date}}
+            </p>
+          </div>
+        </div>
       </summary>
       <article [innerHTML]="item.text"></article>
       @defer (on viewport) {
