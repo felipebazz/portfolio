@@ -1,0 +1,35 @@
+@for (item of inputDetail; track $index) {
+  <details>
+    <summary>
+      <div>
+        <div>
+          <img
+          [src]="'assets/icons/' + type + '.svg'"
+          height="22"
+          width="22"
+          >
+        </div>
+        <div>
+          <p>
+            <strong>{{item.summary.role}}</strong>
+            {{item.summary.date}}
+          </p>
+        </div>
+      </div>
+    </summary>
+    <article [innerHTML]="item.description"></article>
+    @if (hasStacks() === true) {
+      @defer (on viewport) {
+        <app-stacks-and-tools [inputStacks]="item.stacksIds"></app-stacks-and-tools>
+      } @placeholder {
+        <section>
+          <h4>Carregando stacks e ferramentas utilizadas...</h4>
+        </section>
+      } @error {
+        <section>
+          Ocorreu um erro ao carregar os stacks e ferramentas. Tente novamente.
+        </section>
+      }
+    }
+  </details>
+}
