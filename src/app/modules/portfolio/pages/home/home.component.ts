@@ -4,11 +4,18 @@ import { KnowledgeComponent } from '../../components/knowledge/knowledge.compone
 import { ExperienciesComponent } from '../../components/experiencies/experiences.component';
 import { ProjectsComponent } from '../../components/projects/projects.component';
 import { DetailsComponent } from '../../components/shared/details/details.component';
+import { EducationComponent } from '../../components/education/education.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, KnowledgeComponent, ExperienciesComponent, ProjectsComponent, DetailsComponent],
+  imports: [
+    HeaderComponent,
+    KnowledgeComponent,
+    ExperienciesComponent,
+    ProjectsComponent,
+    DetailsComponent,
+    EducationComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

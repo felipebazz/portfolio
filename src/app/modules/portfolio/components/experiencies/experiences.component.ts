@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { StacksAndToolsComponent } from './stacks-and-tools/stacks-and-tools.component';
+import { StacksAndToolsComponent } from '../shared/stacks/stacks-and-tools.component';
 import { ExperiencesConfig } from '../../models/experiences-config.model';
 import { DetailsComponent } from '../shared/details/details.component';
 

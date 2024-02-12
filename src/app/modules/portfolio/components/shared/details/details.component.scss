@@ -7,7 +7,7 @@
   details {
     overflow: hidden;
     margin-top: 10px;
-    background: var(--black-010);
+    // background: var(--black-010);
     border-radius: 7px;
     color: var(--white);
 
@@ -65,5 +65,13 @@
       }
     }
 
+  }
+
+  .dark {
+    background: var(--black);
+  }
+
+  .light {
+    background: var(--black-010);
   }
 }

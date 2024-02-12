@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, signal } from '@angular/core';
 import { EDetailType } from '../../../enums/EDetailType.enum';
-import { StacksAndToolsComponent } from "../../experiencies/stacks-and-tools/stacks-and-tools.component";
 import { IDetails } from '../../../interfaces/details.interface';
+import { StacksAndToolsComponent } from '../stacks/stacks-and-tools.component';
 
 @Component({
     selector: 'app-details',
@@ -12,6 +12,7 @@ import { IDetails } from '../../../interfaces/details.interface';
 })
 export class DetailsComponent implements OnInit {
   @Input({required: true}) public inputDetail: Array<IDetails> = [];
+  @Input({required: true}) public inputDarkMode: boolean = false;
 
   public hasStacks = signal<boolean>(false);
   public type!: EDetailType;
