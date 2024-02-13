@@ -11,7 +11,7 @@ export class EducationConfig {
         date: 'Universidade Paulista | 2016 - 2018',
       },
       description: `
-        <p>Curso técnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
+        <p>Curso tecnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
         gerenciamento de projetos, e boas práticas de programação. Apresentando também ferramentas utéis para o gerenciamento de projetos e ciclo de vida de desenvolvimento.</p>`,
       stacksIds: [],
       url: ''

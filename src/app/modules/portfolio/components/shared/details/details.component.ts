@@ -4,6 +4,7 @@ import { IDetails } from '../../../interfaces/details.interface';
 import { StacksAndToolsComponent } from '../stacks/stacks-and-tools.component';
 import { CommonModule } from '@angular/common';
 import { CertValidationComponent } from '../cert-validation/cert-validation.component';
+import { ICertificate } from '../../../interfaces/certificate.interface';
 
 @Component({
     selector: 'app-details',
@@ -23,13 +24,13 @@ export class DetailsComponent implements OnInit {
   public hasValidations = signal<boolean>(false);
   public type!: EDetailType;
 
-  constructor() {
-
-  }
-
   ngOnInit(): void {
     this.hasStacks.set(this.inputDetail[0].stacksIds.length > 0);
-    this.hasValidations.set(this.inputDetail.some(s => s.url));
+    this.hasValidations.set(this.isCertificate(this.inputDetail[0]));
     this.type = this.inputDetail[0].type;
+  }
+
+  isCertificate(experiencia: IDetails): experiencia is ICertificate {
+    return (experiencia as ICertificate).url.length > 0;
   }
 }

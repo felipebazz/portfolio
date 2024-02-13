@@ -11,7 +11,7 @@ export class CertificateConfig {
         date: 'Desenvolvedor.io | 2023',
       },
       description:
-       `<p>Curso técnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
+       `<p>Curso tecnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
         gerenciamento de projetos, e boas práticas de programação. Apresentando também ferramentas utéis para o gerenciamento de projetos e ciclo de vida de desenvolvimento.</p>`,
       stacksIds: [],
       url: 'https://desenvolvedor.io/certificado/adc8d8b6-4034-4da0-a3d1-7bb05ac3faa4'
@@ -23,7 +23,7 @@ export class CertificateConfig {
         date: 'Desenvolvedor.io | 2023',
       },
       description:
-       `<p>Curso técnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
+       `<p>Curso tecnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
         gerenciamento de projetos, e boas práticas de programação. Apresentando também ferramentas utéis para o gerenciamento de projetos e ciclo de vida de desenvolvimento.</p>`,
       stacksIds: [],
       url: 'https://desenvolvedor.io/certificado/198c43fd-72cd-4d01-90d2-489a317ed253'
@@ -35,7 +35,7 @@ export class CertificateConfig {
         date: 'Desenvolvedor.io | 2022',
       },
       description:
-       `<p>Curso técnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
+       `<p>Curso tecnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
         gerenciamento de projetos, e boas práticas de programação. Apresentando também ferramentas utéis para o gerenciamento de projetos e ciclo de vida de desenvolvimento.</p>`,
       stacksIds: [],
       url: 'https://desenvolvedor.io/certificado/d2665524-07b4-4efe-a5ff-9488c0293ba0'
@@ -47,7 +47,7 @@ export class CertificateConfig {
         date: 'Desenvolvedor.io | 2022',
       },
       description:
-       `<p>Curso técnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
+       `<p>Curso tecnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
         gerenciamento de projetos, e boas práticas de programação. Apresentando também ferramentas utéis para o gerenciamento de projetos e ciclo de vida de desenvolvimento.</p>`,
       stacksIds: [],
       url: 'https://desenvolvedor.io/certificado/aaadc8dc-e69e-4752-8a5f-99e8abc2aead'
@@ -59,7 +59,7 @@ export class CertificateConfig {
         date: 'Udemy | 2020',
       },
       description:
-       `<p>Curso técnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
+       `<p>Curso tecnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
         gerenciamento de projetos, e boas práticas de programação. Apresentando também ferramentas utéis para o gerenciamento de projetos e ciclo de vida de desenvolvimento.</p>`,
       stacksIds: [],
       url: 'https://ude.my/UC-d8bc2dba-87ae-4917-8a22-201f8f223934'
