@@ -1,5 +1,5 @@
 @for (item of inputDetail; track $index) {
-  <details [class.light]="!inputDarkMode" [class.dark]="inputDarkMode">
+  <details [ngClass]="inputDarkMode === true ? 'dark' : 'light'">
     <summary>
       <div>
         <div>
