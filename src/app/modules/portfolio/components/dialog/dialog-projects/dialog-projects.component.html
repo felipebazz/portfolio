@@ -6,14 +6,17 @@
 </header>
 
 <mat-dialog-content>
-  <h3>Descrição</h3>
   <article [innerHTML]="getData()?.description"></article>
-
   <nav>
     @for (item of getData()?.links; track item) {
-      <a [href]="item.href" target="_blank" class="btn btn-primary">
-        {{ item.name}}
-      </a>
+      <a
+      mat-raised-button
+      color="primary"
+      aria-label="Validar o certificado"
+      [href]="item.href"
+      target="_blank"
+      >{{item.name}}</a
+    >
     }
   </nav>
 </mat-dialog-content>
