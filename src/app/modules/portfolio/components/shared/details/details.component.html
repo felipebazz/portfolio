@@ -31,5 +31,18 @@
         </section>
       }
     }
+    @if (hasValidations()) {
+      @defer (on viewport) {
+        <app-cert-validation [inputValidation]="item.url"></app-cert-validation>
+      } @placeholder {
+        <section>
+          <h4>Carregando...</h4>
+        </section>
+      } @error {
+        <section>
+          <h4>Ocorreu um erro ao carregar. Tente novamente.</h4>
+        </section>
+      }
+    }
   </details>
 }

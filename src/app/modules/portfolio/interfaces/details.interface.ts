@@ -6,4 +6,5 @@ export interface IDetails {
   summary: Summary;
   description: string;
   stacksIds: number[];
+  url: string;
 }

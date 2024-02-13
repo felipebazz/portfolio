@@ -13,7 +13,8 @@ export class EducationConfig {
       description: `
         <p>Curso técnológico em analise e desenvolvimento de sistemas, com foco no desenvolvimento de sistemas utilizando metodologia ágil,
         gerenciamento de projetos, e boas práticas de programação. Apresentando também ferramentas utéis para o gerenciamento de projetos e ciclo de vida de desenvolvimento.</p>`,
-      stacksIds: []
+      stacksIds: [],
+      url: ''
     },
     {
       type: EDetailType.Education,
@@ -24,7 +25,8 @@ export class EducationConfig {
       description: `
         <p>Curso técnico em Informática com foco em desenvolvimento de sistemas, introduzindo lógica de programação,
         apresentando as linguagens de programação, ciclo de vida e todo o ecossistema do desenvolvimento de software.</p>`,
-      stacksIds: []
+      stacksIds: [],
+      url: ''
     }
   ])
 }

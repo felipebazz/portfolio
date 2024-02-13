@@ -5,6 +5,7 @@ import { ExperienciesComponent } from '../../components/experiencies/experiences
 import { ProjectsComponent } from '../../components/projects/projects.component';
 import { DetailsComponent } from '../../components/shared/details/details.component';
 import { EducationComponent } from '../../components/education/education.component';
+import { CertificateComponent } from '../../components/certificate/certificate.component';
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,8 @@ import { EducationComponent } from '../../components/education/education.compone
     ExperienciesComponent,
     ProjectsComponent,
     DetailsComponent,
-    EducationComponent],
+    EducationComponent,
+    CertificateComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

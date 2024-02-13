@@ -45,7 +45,8 @@ export class ExperiencesConfig {
         EStacksAndTools.VisualStudio,
         EStacksAndTools.VisualStudioCode,
         EStacksAndTools.Yaml
-      ]
+      ],
+      url: ''
     },
     {
       type: EDetailType.Experience,
@@ -69,6 +70,7 @@ export class ExperiencesConfig {
         EStacksAndTools.Oracle,
         EStacksAndTools.VisualStudio
       ],
+      url: ''
     },
     {
       type: EDetailType.Experience,
@@ -93,7 +95,8 @@ export class ExperiencesConfig {
         EStacksAndTools.MsSql,
         EStacksAndTools.VisualStudio,
         EStacksAndTools.Postman
-      ]
+      ],
+      url: ''
     },
   ])
 }
