@@ -1,0 +1,10 @@
+@if (imageSource !== undefined) {
+  <div class="gallery">
+    <img [src]="imageSource" loading="eager"/>
+  </div>
+} @else {
+  <div class="gallery-error"></div>
+  <p>
+    Parece que a imagem não está onde deveria.
+  </p>
+}

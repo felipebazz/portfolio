@@ -7,4 +7,5 @@ export interface IDetails {
   description: string;
   stacksIds: number[];
   url: string;
+  certificateImage?: string;
 }

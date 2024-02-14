@@ -31,12 +31,16 @@
         </section>
       }
     }
-    @if (hasValidations()) {
-      @defer (on viewport) {
+    @if (hasCertificate()) {
+      @defer (on interaction) {
+        <app-gallery [imageSource]="item.certificateImage"></app-gallery>
         <app-cert-validation [inputValidation]="item.url"></app-cert-validation>
-      } @placeholder {
+      } @loading {
+        <div class="loader"></div>
+      }
+      @placeholder {
         <section>
-          <h4>Carregando...</h4>
+          <h4 class="interaction">Clique para carregar o certificado</h4>
         </section>
       } @error {
         <section>
