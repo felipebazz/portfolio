@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CertificateConfig } from '../../models/certificate-config.model';
-import { DetailsComponent } from '../shared/details/details.component';
-import { CertValidationComponent } from '../shared/cert-validation/cert-validation.component';
+import { DetailsComponent } from '../../shared/components/details/details.component';
+import { CertValidationComponent } from '../../shared/components/cert-validation/cert-validation.component';
 
 @Component({
   selector: 'app-certificate',
