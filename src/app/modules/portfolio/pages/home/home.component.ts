@@ -6,6 +6,7 @@ import { ProjectsComponent } from '../../components/projects/projects.component'
 import { DetailsComponent } from '../../components/shared/details/details.component';
 import { EducationComponent } from '../../components/education/education.component';
 import { CertificateComponent } from '../../components/certificate/certificate.component';
+import { LoadingComponent } from '../../components/shared/loading/loading.component';
 
 @Component({
   selector: 'app-home',
@@ -17,7 +18,8 @@ import { CertificateComponent } from '../../components/certificate/certificate.c
     ProjectsComponent,
     DetailsComponent,
     EducationComponent,
-    CertificateComponent],
+    CertificateComponent,
+    LoadingComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

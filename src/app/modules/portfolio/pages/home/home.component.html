@@ -7,7 +7,10 @@
   @defer (on viewport) {
     <app-certificate></app-certificate>
     <app-projects></app-projects>
-  } @placeholder {
+  } @loading {
+    <app-loading></app-loading>
+  }
+  @placeholder {
     <section>
       <h2>Carregando certificados e projetos...</h2>
     </section>

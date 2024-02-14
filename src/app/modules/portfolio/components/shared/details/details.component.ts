@@ -5,6 +5,7 @@ import { StacksAndToolsComponent } from '../stacks/stacks-and-tools.component';
 import { CommonModule } from '@angular/common';
 import { CertValidationComponent } from '../cert-validation/cert-validation.component';
 import { GalleryComponent } from '../gallery/gallery.component';
+import { LoadingComponent } from '../loading/loading.component';
 
 @Component({
     selector: 'app-details',
@@ -15,7 +16,8 @@ import { GalleryComponent } from '../gallery/gallery.component';
       CommonModule,
       StacksAndToolsComponent,
       CertValidationComponent,
-      GalleryComponent]
+      GalleryComponent,
+      LoadingComponent]
 })
 export class DetailsComponent implements OnInit {
   @Input({required: true}) public inputDetail: Array<IDetails> = [];

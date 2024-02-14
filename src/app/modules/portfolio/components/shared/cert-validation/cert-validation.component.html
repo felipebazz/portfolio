@@ -1,10 +1,17 @@
-<div>
-  <a
-    mat-raised-button
-    color="primary"
-    aria-label="Validar o certificado"
-    [href]="inputValidation"
-    target="_blank"
-    >Validar certificado</a
-  >
-</div>
+@if (inputValidation !== undefined) {
+  <div class="content-end">
+    <a
+      mat-raised-button
+      color="primary"
+      aria-label="Validar o certificado"
+      [href]="inputValidation"
+      target="_blank"
+      >Validar certificado</a
+    >
+  </div>
+} @else {
+  <div class="content-center">
+    <app-error></app-error>
+  </div>
+}
+

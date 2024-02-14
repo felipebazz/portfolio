@@ -36,7 +36,7 @@
         <app-gallery [imageSource]="item.certificateImage"></app-gallery>
         <app-cert-validation [inputValidation]="item.url"></app-cert-validation>
       } @loading {
-        <div class="loader"></div>
+        <app-loading></app-loading>
       }
       @placeholder {
         <section>
